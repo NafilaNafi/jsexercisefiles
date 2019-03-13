@@ -1,5 +1,8 @@
 let name = 'Nafi'
 
 let score = 103
+let bonus = 20
 
-console.log(name)
+let totalscore = score + bonus
+
+console.log(totalscore)
