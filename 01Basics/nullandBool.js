@@ -1,8 +1,8 @@
 //temp is coming from website API
 
-var temp = 0
+var temp
 
 //done some calculation
-temp = 2
+// temp = 2
 
 console.log("current temperature is: " + temp)
