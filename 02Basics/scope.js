@@ -1,12 +1,32 @@
-let iAmGlobal = 'somevalue'
+// let iAmGlobal = 'somevalue'
+
+// if (true) {
+//     var iamLocal = 'someMoreValue'
+//     iAmGlobal = 'superman'
+//     console.log(iAmGlobal);
+//     console.log(iamLocal);
+    
+// }
+
+// console.log(iamLocal);
+// console.log(iAmGlobal);
+
+
+//kings problem
+
+let king = 'john'
 
 if (true) {
-    var iamLocal = 'someMoreValue'
-    iAmGlobal = 'superman'
-    console.log(iAmGlobal);
-    console.log(iamLocal);
-    
+    let king = 'Sam'
+
+    if (true) {
+        let king = 'Ram'
+        console.log(king);
+
+    }
 }
 
-console.log(iamLocal);
-console.log(iAmGlobal);
+if (true) {
+    console.log(" I am second part" + king);
+    
+}
