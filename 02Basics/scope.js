@@ -14,13 +14,13 @@
 
 //kings problem
 
-let king = 'john'
+//let king = 'john'
 
 if (true) {
-    let king = 'Sam'
+    //let king = 'Sam'
 
     if (true) {
-        //let king = 'Ram'
+        king = 'Ram'
         console.log(king);
 
     }
@@ -29,4 +29,4 @@ if (true) {
 if (true) {
     console.log(" I am second part : " + king);
     
-}
+ }
